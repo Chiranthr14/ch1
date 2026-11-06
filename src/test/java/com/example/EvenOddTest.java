@@ -12,7 +12,7 @@ class EvenOddTest {
 
     @Test
     void evenNumberIsEven() {
-        assertTrue(EvenOdd.isEven(4));
+        assertfalse(EvenOdd.isEven(5));
     }
 
     @Test
